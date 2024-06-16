@@ -40,34 +40,6 @@
             </div>
             <br>
             <br>
-            <div class="card-deck inner">
-                <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[2].path alt="Card image cap">
-                        <div class="card-body align-center">
-                            <h5 class="card-title cardTextAlignment">{{products[2].title}}</h5>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-secondary" href="#">Just a button</a>
-                        </div>	
-                </div>
-                <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[1].path alt="Card image cap">
-                        <div class="card-body align-center">
-                            <h5 class="card-title cardTextAlignment">{{products[1].title}}</h5>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-secondary" href="#">Just a button</a>
-                        </div>	
-                </div>
-                <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[0].path alt="Card image cap">
-                        <div class="card-body align-center">
-                            <h5 class="card-title cardTextAlignment">{{products[0].title}}</h5>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-secondary" href="#">Just a button</a>
-                        </div>	
-                </div>
             </div>
         
         </div>
