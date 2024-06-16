@@ -3,8 +3,7 @@
 
 <template>
   <div class="container">
-    <h1>Welcome to the Demo website!</h1>
-    <h3>Are you ready to learn how to build a full stack application with Amazon ECS, combining it with DevOps practices?</h3>
+    <h1>ECS Autoscaling</h1>
     <br>
 
     <div class="jumbotron text-center winter">
@@ -15,7 +14,6 @@
         <div class="row">
             <div class="card-deck inner">
                 <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[2].path alt="Card image cap">
                         <div class="card-body align-center">
                             <h5 class="card-title cardTextAlignment">{{products[2].title}}</h5>
                         </div>
@@ -24,7 +22,6 @@
                         </div>	
                 </div>
                 <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[1].path alt="Card image cap">
                         <div class="card-body align-center">
                             <h5 class="card-title cardTextAlignment">{{products[1].title}}</h5>
                         </div>
@@ -33,7 +30,6 @@
                         </div>	
                 </div>
                 <div class="card align-items-center">
-                    <img class="card-img-top adjustFit" v-bind:src=products[0].path alt="Card image cap">
                         <div class="card-body align-center">
                             <h5 class="card-title cardTextAlignment">{{products[0].title}}</h5>
                         </div>
